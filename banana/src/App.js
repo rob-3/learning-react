@@ -15,6 +15,7 @@ function App() {
   return (
     <div style={fullBackground}> 
       <Router>
+        <Route exact path = "/" component={Character} />
         <Route exact path = "/Banana" component={Banana} />
         <Route exact path = "/Character" component={Character} />
       </Router>
